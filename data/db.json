@@ -1,0 +1,18 @@
+{
+  "projects": [
+    {
+      "title": "Project Title",
+      "info": "Creating my first random project idea in React with my best friend, James Bond",
+      "client": "Jugnu Ustad",
+      "budget": 2000,
+      "id": 1
+    },
+    {
+      "title": "dweodfhwedf",
+      "body": "weqodhqwodhqdh",
+      "client": "qweuqwdhqw",
+      "budget": "678585858",
+      "id": 2
+    }
+  ]
+}
