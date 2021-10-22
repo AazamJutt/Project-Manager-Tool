@@ -19,12 +19,14 @@ const BlogDetails = () => {
             { error && <div> { error }</div>}
             {data && (
                 <article>
-                    <div className="d-flex flex-row justify-content-between">
+                    <div className="d-flex flex-row justify-content-between title">
                         <h2>{data.title}</h2>
-                        <button id="deleteBtn" onClick={() => handleDelete(data.id) }>Delete</button>
+                        <button className="deleteBtn" onClick={() => handleDelete(data.id) }>Delete</button>
                     </div>
                     <p>Budget: Rs.{data.budget}/-</p>
                     <p>Client: {data.client}</p>
+                    <p>Due-Date: {data.due}</p>
+                    <h5>Info</h5>
                     <p>{data.info}</p>
                 </article>
             )}

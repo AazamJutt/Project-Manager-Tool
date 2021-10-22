@@ -9,9 +9,10 @@
 }
 .navbar {
   padding: 20px;
+  text-align: left;
   max-width: 750px;
   margin: 0 auto;
-  border-bottom: 3px solid #4f5053;
+  border-bottom: 1px solid #4f5053;
 }
 .navbar h4 {
   display: inline-block;
@@ -22,6 +23,7 @@
 }
 .navbar a {
   margin-left: 16px;
+  font-size: medium;
   color: #d1d1d1;
   text-decoration: none;
   padding: 6px;
@@ -32,11 +34,12 @@
 .content {
   max-width: 800px;
   text-align: left;
-  margin: 40px auto;
-  padding: 20px;
+  margin: auto;
+  padding: 1em;
 }
 #addProjectBtn{
   color: white;
+  font-size: 0.8rem;
   background-color: #8115b3;
   border-radius: 6px;
 }
@@ -44,10 +47,10 @@
 .project-preview {
   padding: 30px;
   margin: 20px 0;
-  border-left: 2px solid #4f5053;
+  border-left: 4px solid #4f5053;
 }
 .project-preview:hover {
-  box-shadow: 20px 10px 20px rgba(0,0,0,0.1);
+  box-shadow: 30px 10px 20px rgba(0,0,0,0.1);
 }
 .project-preview a{
   text-decoration: none;
@@ -65,32 +68,32 @@
   font-weight: bold;
   color: #8115b3;
 }
-
-#deleteBtn{
-  color : white;
-  background-color: red;
-  border-radius: 7px;
-  border: 0px;
-}
-
 /* project details page */
 .project-details h2 {
   font-size: 20px;
   color:#8115b3;
-  margin-bottom: 10px;
-}
-.project-details div {
-  margin: 20px 0;
-}
-.project-details button {
-  background: #8115b3;
-  color: #fff;
-  border: 0;
-  padding: 8px;
-  border-radius: 8px;
-  cursor: pointer;
 }
 
+.title {
+  padding: 1rem;
+  margin: 2rem 0;
+  border-bottom: 1px solid #4f5053;
+}
+
+.deleteBtn{
+  color : white;
+  font-size: 0.8rem;
+  background-color: rgb(134, 10, 10);
+  border-radius: 7px;
+  border: 0px;
+}
+
+.deleteBtn:hover{
+  color : white;
+  background-color: rgb(211, 12, 12);
+  border-radius: 7px;
+  border: 0px;
+}
 
 /* create new project form */
 .create {
@@ -103,7 +106,7 @@
   display: block;
 }
 .create h2 {
-  font-size: 20px;
+  font-size: 2rem;
   color: #8115b3;
   margin-bottom: 30px;
 }
@@ -111,13 +114,13 @@
   width: 100%;
   padding: 6px 10px;
   margin: 10px 0;
-  border: 1px solid #ddd;
+  border: 1px solid #555555;
   box-sizing: border-box;
   display: block;
 }
 .create button {
   background: #8115b3;
-  color: #fff;
+  color: #d1d1d1;
   border: 0;
   padding: 8px;
   border-radius: 8px;

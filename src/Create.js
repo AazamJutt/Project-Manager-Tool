@@ -28,9 +28,9 @@ const Create = () => {
         <div className="create">
             <h2>Add a New Blog</h2>
             <form onSubmit = {handlSubmit}>
-                <label>Project Title</label>
+                <label>Title</label>
                 <input type="text" required value={title} onChange={(e) => setTitle(e.target.value)}/>
-                <label>Project Info</label>
+                <label>Info</label>
                 <textarea required value={body} onChange={(e) => setBody(e.target.value)}></textarea>
                 <label>Client</label>
                 <input type="text" required value={client} onChange={(e) => setClient(e.target.value)}/>

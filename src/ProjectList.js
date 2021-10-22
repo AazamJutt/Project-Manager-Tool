@@ -10,6 +10,7 @@ const ProjectList = ({projects, title}) => {
                         <Link to={`/projects/${project.id}`}>
                             <h2>{ project.title }</h2> 
                         </Link>
+                            <p>Due-Date: { project.due }</p>
                             <p>Client: { project.client }</p>
                     </div>
                 </div>
